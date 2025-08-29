@@ -1,10 +1,22 @@
-- 👋 Hi, I’m @enjoycomnc
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Gestion de Cuisine Professionnelle
 
-<!---
-enjoycomnc/enjoycomnc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Ce projet propose une base pour un logiciel de gestion de cuisine professionnelle incluant :
+
+- Gestion des fournisseurs
+- Inventaire (ingrédients)
+- Fiches techniques / Recettes
+- Commandes et réception avec mise à jour de stock
+
+L'implémentation se fait en **Python pur** à l'aide de dataclasses et d'un stockage en mémoire.
+
+## Exécution d'un exemple
+
+```bash
+python3 main.py
+```
+
+## Tests
+
+```bash
+python3 -m unittest discover -s tests -p 'test*.py'
+```
